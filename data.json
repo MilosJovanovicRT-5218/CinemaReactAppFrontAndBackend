@@ -1,0 +1,52 @@
+{
+  "filmovi": [
+    {
+      "naziv": "Film 1",
+      "is3D": false
+    },
+    {
+      "naziv": "Film 2",
+      "is3D": true
+    }
+  ],
+  "sale": [
+    {
+      "id": 1,
+      "naziv": "Sala 1",
+      "kapacitet": 100
+    },
+    {
+      "id": 2,
+      "naziv": "Sala 2",
+      "kapacitet": 80
+    }
+  ],
+  "projekcije": [
+    {
+      "id": 1,
+      "filmId": 1,
+      "salaId": 1,
+      "cena": 200,
+      "datumVreme": "2023-06-09T18:00:00"
+    },
+    {
+      "id": 2,
+      "filmId": 2,
+      "salaId": 2,
+      "cena": 250,
+      "datumVreme": "2023-06-10T20:00:00"
+    }
+  ],
+  "rezervacije": [
+    {
+      "id": 1,
+      "projekcijaId": 1,
+      "email": "korisnik1@example.com"
+    },
+    {
+      "id": 2,
+      "projekcijaId": 2,
+      "email": "korisnik2@example.com"
+    }
+  ]
+}
